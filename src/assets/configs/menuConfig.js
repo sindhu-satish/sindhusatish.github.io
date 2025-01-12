@@ -9,24 +9,24 @@ const menuConfig = {
     {
       id: "menu-0",
       title: "Home",
-      path: "/portfolio",
+      path: "/",
       icon: <AiFillHome size={35} />,
       className: "nav-text",
     },
-    {
-      id: "menu-1",
-      title: "Projects",
-      path: "/projects",
-      icon: <AiOutlineGithub size={35} />,
-      className: "nav-text",
-    },
-    {
-      id: "menu-3",
-      title: "Skills",
-      path: "/skills",
-      icon: <AiFillCode size={35} />,
-      className: "nav-text",
-    },
+    // {
+    //   id: "menu-1",
+    //   title: "Projects",
+    //   path: "/projects",
+    //   icon: <AiOutlineGithub size={35} />,
+    //   className: "nav-text",
+    // },
+    // {
+    //   id: "menu-3",
+    //   title: "Skills",
+    //   path: "/skills",
+    //   icon: <AiFillCode size={35} />,
+    //   className: "nav-text",
+    // },
   ],
 };
 
