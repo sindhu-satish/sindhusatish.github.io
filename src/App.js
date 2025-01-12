@@ -22,8 +22,8 @@ function App() {
                 <Container sx={{ flex: 1, py: 3 }}>
                     <Routes>
                         <Route path="/" exact element={<Home />} />
-                        <Route path="/projects" exact element={<Projects />} />
-                        <Route path="/skills" exact element={<Skills />} />
+                        {/* <Route path="/projects" exact element={<Projects />} /> */}
+                        {/* <Route path="/skills" exact element={<Skills />} /> */}
                     </Routes>
                 </Container>
                 <Footer />
